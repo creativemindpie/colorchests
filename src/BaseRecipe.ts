@@ -1,6 +1,6 @@
-import { DoodadTypeGroup } from "doodad/IDoodad";
-import { SkillType } from "entity/IHuman";
-import { IRecipeComponent, ItemType, ItemTypeGroup, RecipeLevel } from "item/IItem";
+import { DoodadTypeGroup } from "game/doodad/IDoodad";
+import { SkillType } from "game/entity/IHuman";
+import { IRecipeComponent, ItemType, ItemTypeGroup, RecipeLevel } from "game/item/IItem";
 
 export const WoodenChestBase: IRecipeComponent[] = [
     {
@@ -8,21 +8,24 @@ export const WoodenChestBase: IRecipeComponent[] = [
         requiredAmount: 3,
         consumedAmount: 3,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemType.WoodenDowels,
         requiredAmount: 2,
         consumedAmount: 2,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemType.SharpRock,
         requiredAmount: 1,
         consumedAmount: 1,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     }
 ];
 
@@ -32,14 +35,16 @@ export const CopperChestBase: IRecipeComponent[] = [
         requiredAmount: 15,
         consumedAmount: 15,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemTypeGroup.Hammer,
         requiredAmount: 1,
         consumedAmount: 0,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     }
 ];
 
@@ -49,21 +54,24 @@ export const WroughtIronChestBase: IRecipeComponent[] = [
         requiredAmount: 15,
         consumedAmount: 15,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemTypeGroup.Hammer,
         requiredAmount: 1,
         consumedAmount: 0,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemTypeGroup.Tongs,
         requiredAmount: 1,
         consumedAmount: 0,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     }
 ];
 
@@ -73,21 +81,24 @@ export const IronChestBase: IRecipeComponent[] = [
         requiredAmount: 15,
         consumedAmount: 15,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemTypeGroup.Hammer,
         requiredAmount: 1,
         consumedAmount: 0,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     },
     {
         type: ItemTypeGroup.Tongs,
         requiredAmount: 1,
         consumedAmount: 0,
         disassembleAmount: 0,
-        ignoreWeight: true
+        ignoreWeight: true,
+        tileEventByProduct: false
     }
 ];
 

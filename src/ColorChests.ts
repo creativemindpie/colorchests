@@ -1,9 +1,9 @@
-import { DoodadType } from "doodad/IDoodad";
-import { ActionType } from "entity/action/IAction";
-import { ItemType, ItemTypeGroup } from "item/IItem";
+import { DoodadType } from "game/doodad/IDoodad";
+import { ActionType } from "game/entity/action/IAction";
+import { ItemType, ItemTypeGroup } from "game/item/IItem";
 import Mod from "mod/Mod";
 import Register, { Registry } from "mod/ModRegistry";
-import { RecipeComponent } from "item/Items";
+import { RecipeComponent } from "game/item/Items";
 import { CopperChestBase, IronChestBase, WroughtIronChestBase, WoodenChestBase, BaseStatsItemWoodenChest, BaseStatsItemCopperChest, BaseStatsItemWroughtIronChest, BaseStatsItemIronChest } from "./BaseRecipe";
 import { BaseStatsDoodadCopperChest, BaseStatsDoodadIronChest, BaseStatsDoodadWoodenChest, BaseStatsDoodadWroughtIronChest } from "./BaseDoodad";
 

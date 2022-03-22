@@ -1,13 +1,13 @@
 {
 	"name": "Color Chests",
 	"description": "Allows you to craft colorized versions of chests for organization.",
-	"version": "1.0.0",
+	"version": "1.1.5",
 	"author": "Tek",
 	"tags": ["Doodad", "Item"],
 	"file": "out/ColorChests",
 	"allowUnlockingMilestones": true,
 	"multiplayer": "compatible",
 	"languages": ["lang/english"],
-	"waywardVersion": "2.9.6-beta",
+	"waywardVersion": "2.11.5-beta",
 	"publishedFileId": "2269794548"
 }
